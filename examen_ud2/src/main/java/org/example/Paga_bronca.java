@@ -55,10 +55,12 @@ do {
         default:
             System.out.println("Otros. No se aplica ningun multiplicador");
             resultado = valor;
-            break;
+            System.out.println("Puntuacion de la bronca:" +resultado);
+            return;
 
 
     }
+
     System.out.println("Puntuación de la broca "+contador+ ": "+resultado);
 
     System.out.println("¿Quieres añadir otra bronca? (S/N):");
@@ -66,7 +68,7 @@ do {
 //    System.out.println(otra);
 
     repetir = otra.equalsIgnoreCase("s");
-    System.out.println(repetir);
+//    System.out.println(repetir);
 
     if (repetir){
         contador++;
