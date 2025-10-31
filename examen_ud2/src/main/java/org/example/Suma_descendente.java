@@ -13,11 +13,11 @@ public class Suma_descendente {
 
         String numero_string = Integer.toString(numero);
         System.out.println("Suma descendente del número generado: "+numero);
-        System.out.println(numero_string+"+");
+//        System.out.println(numero_string+"+");
 
         int longitud = numero_string.length();
 
-        for (int i = 1 ; i< longitud; i++){
+        for (int i = 0 ; i< longitud; i++){
             num =numero_string.substring(i, longitud);
             num1 = Integer.parseInt(num);
             System.out.println(num.concat("+"));
@@ -25,8 +25,7 @@ public class Suma_descendente {
 //            System.out.println(resultado2);
         }
 
-        int resultado = numero+resultado2;
-        System.out.println("="+resultado);
+        System.out.println("="+resultado2);
 
 
 
